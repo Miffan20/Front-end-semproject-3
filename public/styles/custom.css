@@ -1,0 +1,39 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-left: 25%;
+}
+
+.pc #pcPictures {
+    width: 25%;
+    height: 50%;
+}
+
+.details-area {
+    display: flex;
+    flex-direction: column;
+}
+
+#chadNav {
+    background-color: #1a202c;
+}
+
+#plebNav {
+    background-color: #1a202c;
+}
+
+.details-area h1 {
+    color: #1a202c;
+}
+
+.a.details-link {
+    color: #1a202c;
+}
+
+.addToCart {
+    background-color: #1a202c;
+}
+
+
